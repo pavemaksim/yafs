@@ -1,0 +1,13 @@
+@import "base/normalize";
+@import "utils/variables";
+
+body {
+    font-family: 'brandon-grotesque', sanf-serif;
+    color: $text-colour;
+    text-align: center;
+}
+
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/form";
+@import "blocks/image";

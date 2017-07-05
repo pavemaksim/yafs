@@ -1,0 +1,26 @@
+.image {
+    &__link {
+        margin-bottom: $default-margin;
+    }
+    &__source-link {
+        font-size: 16px;
+        line-height: 1.4;
+        background: $input-background;
+        border: 1px solid $input-background;
+        border-radius: 4px;
+        appearance: none;
+        outline: none;
+        padding: 6px 7px;
+        transition: all 150ms;
+        width: 500px;
+    }
+
+    &__source-link:focus {
+        background: $input-focused-background;
+    }
+    &__preview-img {
+        max-width: 1000px;
+        width: 100%;
+        height: auto;
+    }
+}
